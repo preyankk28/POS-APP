@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screens.History">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:strokeWidth="1dp"
+
+                android:layout_weight="0"
+            android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:id="@+id/card"
+
+
+                app:strokeColor="@color/black">
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                app:cardCornerRadius="7dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="center"
+                app:strokeWidth="1dp"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textSize="20dp"
+                    android:text="HISTORY"/>
+
+
+            </com.google.android.material.card.MaterialCardView>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:strokeWidth="1dp"
+
+                android:layout_weight="0"
+
+                android:layout_marginTop="10dp"
+
+
+
+                app:strokeColor="@color/black">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+<!--                        <com.google.android.material.card.MaterialCardView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            app:cardCornerRadius="7dp"-->
+<!--                            app:strokeColor="@color/black"-->
+<!--                            android:layout_weight="1"-->
+<!--                            app:strokeWidth="1dp"-->
+<!--                            android:layout_margin="8dp"-->
+<!--                            android:layout_height="wrap_content">-->
+
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_margin="5dp"-->
+<!--                                android:text="NUM"-->
+<!--                                android:textSize="14dp" />-->
+
+
+<!--                        </com.google.android.material.card.MaterialCardView>-->
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="wrap_content"
+                            app:cardCornerRadius="7dp"
+                            android:layout_weight="1"
+                            app:strokeColor="@color/black"
+
+                            app:strokeWidth="1dp"
+                            android:layout_margin="8dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:textSize="14dp"
+                                android:text="Last 4 Digit CC"/>
+
+
+                        </com.google.android.material.card.MaterialCardView>
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="wrap_content"
+                            app:cardCornerRadius="7dp"
+                            app:strokeColor="@color/black"
+                            android:layout_weight="1"
+
+                            app:strokeWidth="1dp"
+                            android:layout_margin="8dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:textSize="14dp"
+                                android:text="Amount"/>
+
+
+                        </com.google.android.material.card.MaterialCardView>
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="wrap_content"
+                            app:cardCornerRadius="7dp"
+                            app:strokeColor="@color/black"
+                            android:layout_weight="1"
+                            app:strokeWidth="1dp"
+                            android:layout_margin="8dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:textSize="14dp"
+                                android:text="Option"/>
+
+
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:strokeWidth="1dp"
+                        android:layout_margin="7dp"
+
+
+
+                        android:layout_marginTop="10dp"
+
+
+
+                        app:strokeColor="@color/black">
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:layout_width="match_parent"
+                            android:id="@+id/historyrecycler"
+                            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                            tools:listitem="@layout/historyrecycler"
+                            android:layout_height="wrap_content"/>
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:strokeWidth="1dp"
+                android:id="@+id/optionsbox"
+
+
+
+                android:layout_weight="0"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+
+
+
+                app:strokeColor="@color/black">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="wrap_content"
+                        app:cardCornerRadius="7dp"
+                        app:strokeColor="@color/black"
+                        android:id="@+id/showmoredetails"
+                        android:onClick="showmoredetails"
+                        android:layout_weight="1"
+                        app:strokeWidth="1dp"
+                        android:layout_margin="8dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+
+                            android:textSize="20dp"
+                            android:text="Show More Details"/>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="wrap_content"
+                        app:cardCornerRadius="7dp"
+                        app:strokeColor="@color/black"
+                        android:layout_weight="1"
+                        app:strokeWidth="1dp"
+                        android:layout_margin="8dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textSize="20dp"
+                            android:text="Print"/>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="wrap_content"
+                        app:cardCornerRadius="7dp"
+                        app:strokeColor="@color/black"
+                        android:layout_weight="1"
+                        app:strokeWidth="1dp"
+                        android:layout_margin="8dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+
+                            android:textSize="20dp"
+                            android:text="Advanced"/>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="wrap_content"
+                        app:cardCornerRadius="7dp"
+                        app:strokeColor="@color/black"
+                        android:layout_weight="1"
+                        android:onClick="RefundClick"
+                        app:strokeWidth="1dp"
+                        android:layout_margin="8dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textSize="20dp"
+                            android:text="Refund"/>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:strokeWidth="1dp"
+                android:id="@+id/showfields"
+                android:visibility="gone"
+                android:layout_weight="0"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+
+
+
+                app:strokeColor="@color/black">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="wrap_content"
+                            app:cardCornerRadius="7dp"
+                            app:strokeColor="@color/black"
+                            android:layout_weight="1"
+                            app:strokeWidth="1dp"
+                            android:layout_margin="8dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+
+                                android:textSize="20dp"
+                                android:text="Show fiels that are enabled"/>
+
+
+                        </com.google.android.material.card.MaterialCardView>
+
+
+                    </LinearLayout>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        app:strokeWidth="1dp"
+                        android:layout_margin="7dp"
+
+
+                        android:layout_marginTop="10dp"
+
+
+
+                        app:strokeColor="@color/black">
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

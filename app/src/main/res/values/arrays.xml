@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="time">
+        <item>Daily</item>
+        <item>Monthly</item>
+        <item>Year</item>
+
+    </string-array>
+    <string-array name="searchmtd">
+        <item>Default</item>
+
+    </string-array>
+    <string-array name="donationtype" >
+        <item>Donation Type</item>
+        <item>Recurring Donation</item>
+        <item>Schedule Doination</item>
+
+    </string-array>
+</resources>

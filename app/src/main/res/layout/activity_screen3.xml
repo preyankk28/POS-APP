@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Screens.Screen3Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cal"
+        android:layout_margin="10dp"
+        app:strokeWidth="2dp"
+        app:strokeColor="@color/black">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:strokeWidth="1dp"
+        android:layout_gravity="center"
+
+
+        app:strokeColor="@color/black">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:id="@+id/donationid"
+
+            android:text="Your Donation ID is"/>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:strokeWidth="1dp"
+        android:layout_weight="1"
+        android:onClick="printclick"
+        android:layout_margin="8dp"
+        app:strokeColor="@color/black">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="Print"/>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:strokeWidth="1dp"
+       android:onClick="newdonation"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        app:strokeColor="@color/black">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="New Donation"/>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      <com.google.android.material.card.MaterialCardView
+          android:layout_width="match_parent"
+          android:layout_marginLeft="70dp"
+          android:layout_marginRight="70dp"
+          android:layout_marginBottom="10dp"
+          android:layout_marginTop="20dp"
+          android:layout_height="wrap_content"
+          app:strokeWidth="1dp"
+
+          android:layout_gravity="center"
+          app:strokeColor="@color/black">
+
+
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dp"
+              android:textSize="15dp"
+
+
+              android:hint="Email Address"/>
+
+
+
+      </com.google.android.material.card.MaterialCardView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        app:strokeWidth="1dp"
+       android:layout_marginLeft="30dp"
+    android:layout_weight="1"
+        android:layout_gravity="center"
+        app:strokeColor="@color/black">
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="15dp"
+
+
+            android:hint="Full Name"/>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+
+        android:layout_marginLeft="30dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        app:strokeWidth="1dp"
+
+        android:layout_gravity="center"
+        app:strokeColor="@color/black">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:textSize="18dp"
+
+
+            android:text="Anonymously"/>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
+      <com.google.android.material.card.MaterialCardView
+          android:layout_width="match_parent"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginBottom="10dp"
+          android:layout_marginTop="20dp"
+          android:layout_height="wrap_content"
+          app:strokeWidth="1dp"
+
+          android:layout_gravity="center"
+          app:strokeColor="@color/black">
+
+
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dp"
+              android:textSize="15dp"
+
+
+              android:hint="Email Mobile Number to get Info"/>
+
+
+
+      </com.google.android.material.card.MaterialCardView>
+      <com.google.android.material.card.MaterialCardView
+          android:layout_width="match_parent"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginBottom="10dp"
+          android:layout_marginTop="20dp"
+          android:layout_height="150dp"
+          app:strokeWidth="1dp"
+
+          android:layout_gravity="center"
+          app:strokeColor="@color/black">
+
+
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dp"
+              android:textSize="15dp"
+
+
+              android:hint="Email comment"/>
+
+
+
+      </com.google.android.material.card.MaterialCardView>
+
+  </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            app:strokeWidth="1dp"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center"
+            android:onClick="doneclick"
+            app:strokeColor="@color/black">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+
+
+
+                android:text="DONE"/>
+
+
+
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            app:strokeWidth="1dp"
+            android:layout_marginLeft="30dp"
+
+            android:layout_gravity="center"
+            app:strokeColor="@color/black">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+
+
+                android:text="Clear"/>
+
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+
+

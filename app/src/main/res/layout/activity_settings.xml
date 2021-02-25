@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screens.SettingsActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:strokeWidth="1dp"
+                android:layout_gravity="center"
+                android:layout_weight="0"
+                android:id="@+id/card"
+                android:layout_margin="8dp"
+                app:strokeColor="@color/black">
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    app:cardCornerRadius="7dp"
+                    app:strokeColor="@color/black"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    app:strokeWidth="1dp"
+                    android:layout_margin="8dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="20dp"
+                        android:text="SETTINGS"/>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </com.google.android.material.card.MaterialCardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:strokeWidth="1dp"
+
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
+
+                    app:strokeColor="@color/black">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="Enable advanced mode after Donation"/>
+
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:strokeWidth="1dp"
+
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
+
+                    app:strokeColor="@color/black">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="Donation Labels"/>
+
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:strokeWidth="1dp"
+
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
+
+                    app:strokeColor="@color/black">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="Accept OJC"/>
+
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:strokeWidth="1dp"
+
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
+
+                    app:strokeColor="@color/black">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="Hmf Amount "/>
+
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:strokeWidth="1dp"
+
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
+
+                    app:strokeColor="@color/black">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="Donation Type "/>
+
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:strokeWidth="1dp"
+
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
+
+                    app:strokeColor="@color/black">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="Block Refund without a code"/>
+
+
+
+                </com.google.android.material.card.MaterialCardView>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:onClick="imageclick"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_launcher_background"/>
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:strokeWidth="1dp"
+
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
+
+                    app:strokeColor="@color/black">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="Auto - print a receipt for the donor"/>
+
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:strokeWidth="1dp"
+
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
+
+                    app:strokeColor="@color/black">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="Auto- print copy"/>
+
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:strokeWidth="1dp"
+        android:layout_weight="1"
+        android:backgroundTint="#4CAF50"
+        android:layout_margin="8dp"
+        app:strokeColor="@color/black">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:background="#4CAF50"
+            android:gravity="center"
+            android:text="SAVE "/>
+
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:strokeWidth="1dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:backgroundTint="#9DA7DD"
+        app:strokeColor="@color/black">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+
+            android:gravity="center"
+            android:text="Reset "/>
+
+    </com.google.android.material.card.MaterialCardView> <com.google.android.material.card.MaterialCardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:strokeWidth="1dp"
+    android:layout_weight="1"
+    android:backgroundTint="#E85247"
+    android:layout_margin="8dp"
+    app:strokeColor="@color/black">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="Sync"/>
+
+</com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/linearlayout"
+                android:visibility="gone"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:strokeWidth="1dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        app:strokeColor="@color/black">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:textSize="14dp"
+                            android:gravity="center"
+                            android:hint="Password"/>
+
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:strokeWidth="1dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        app:strokeColor="@color/black">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:textSize="14dp"
+                            android:gravity="center"
+                            android:hint="Re-Password"/>
+
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:strokeWidth="1dp"
+                        android:layout_weight="0.8"
+                        android:layout_margin="8dp"
+                        app:strokeColor="@color/black">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:textSize="14dp"
+                            android:gravity="center"
+                            android:hint="SET"/>
+
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:strokeWidth="1dp"
+                        android:layout_weight="0.8"
+                        android:layout_margin="8dp"
+                        app:strokeColor="@color/black">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:textSize="14dp"
+                            android:gravity="center"
+                            android:hint="X"/>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
