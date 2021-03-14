@@ -9,13 +9,13 @@ I am the developer of the application , reach me out via email for more enquirie
 ![2021-02-08 (1)](https://user-images.githubusercontent.com/72382646/111074326-7a1ebf00-8508-11eb-88e7-7a42b51c2cb3.jpg)
 
 
-
+![](https://img.shields.io/badge/VOLLEY-informational?style=flat&logo=<POS>&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/MaterialDesign-informational?style=flat&logo=<POS>&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-JAVA-informational?style=flat&logo=<POS>&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/API-RETROFIT-informational?style=flat&logo=<POS>&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Editor-IntellijIdea-informational?style=flat&logo=<POS>&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/ANDROID-informational?style=flat&logo=<POS>&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/VOLLEY-informational?style=flat&logo=<POS>&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/MaterialDesign-informational?style=flat&logo=<POS>&logoColor=white&color=2bbc8a)
+
 
 
 API's used in the application are-
