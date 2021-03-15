@@ -2,13 +2,13 @@
 POSS app is an application for the PAC store to facilate funding to different organizations (Web Page for Reference https://helpmefund.org/anne).
 
 I am the developer of the application , reach me out via email for more enquiries - preyankk28@gmail.com
-Solarized dark             |  Solarized Ocean           
+ 
+ 
+ Screenshots
 :-------------------------:|:-------------------------:
-![2021-02-11](https://user-images.githubusercontent.com/72382646/111120758-c6faa800-8591-11eb-8c28-3fb0990862c1.png)  |  ![2021-02-15](https://user-images.githubusercontent.com/72382646/111074320-7723ce80-8508-11eb-99de-d152e5f79194.jpg)
-
-
-![2021-02-21](https://user-images.githubusercontent.com/72382646/111074323-78ed9200-8508-11eb-9ff1-d092df7ea791.jpg)
-![2021-02-08](https://user-images.githubusercontent.com/72382646/111074325-79862880-8508-11eb-8e74-a42c23fa355d.jpg)
+![2021-02-11](https://user-images.githubusercontent.com/72382646/111120758-c6faa800-8591-11eb-8c28-3fb0990862c1.png)  |  ![2021-02-15](https://user-images.githubusercontent.com/72382646/111074320-7723ce80-8508-11eb-99de-d152e5f79194.jpg)  | 
+![2021-02-21](https://user-images.githubusercontent.com/72382646/111074323-78ed9200-8508-11eb-9ff1-d092df7ea791.jpg)  | 
+![2021-02-08](https://user-images.githubusercontent.com/72382646/111074325-79862880-8508-11eb-8e74-a42c23fa355d.jpg)  | 
 ![2021-02-08 (1)](https://user-images.githubusercontent.com/72382646/111074326-7a1ebf00-8508-11eb-88e7-7a42b51c2cb3.jpg)
 
 
